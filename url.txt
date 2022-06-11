@@ -1,0 +1,556 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="en-gb" xml:lang="en-gb">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+
+
+<title>LearnedLeague</title>
+
+
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+
+<link rel="stylesheet" href="/assets/css/main2.css" />
+
+
+<link REL="icon" HREF="/images/logos/clownball_transparent.ico" TYPE="image/ico">
+<link rel="shortcut icon" type="image/x-icon" href="/images/logos/clownball_transparent.ico" />
+
+<META name="description" content="The Greatest Trivia League in All the Land.">
+<META name="keywords" content="trivia, league, learnedleague, thorsten, integrity, one-day, minileague">
+
+<script type="text/javascript"><!--
+	var spoiler_show = "[Reveal]";
+	var spoiler_hide = "[Obscure]";
+//--></script>
+
+<!-- <script type="text/javascript" src="./styles/subsilver2/template/prime_bbcode_spoiler.js"></script> THIS IS NOW BELOW -->
+
+<script type="text/javascript"><!--
+			var spoiler_collapse = true;
+			document.write('<style type="text/css">\n.spoiler-hidden{visibility:hidden}' + (spoiler_collapse ? '\ndiv.spoiler-hidden{display:none}' : '') + '\n<\/style>');
+			function spoilerToggle(o, reset)
+			{
+				var c, t, v, i, j;
+				reset = reset || false;
+				if (o && (c = o.className.match(/\bspoiler-link|spoiler-box\b/)))
+				{
+					v = (c == 'spoiler-box');
+					o = !v ? o.parentNode.nextSibling : o;
+					c = o.firstChild;
+					v = reset || !(v || c.className == 'spoiler-hidden');
+					c.className = v ? 'spoiler-hidden' : 'spoiler-visible';
+
+					if (o.previousSibling && (t = o.previousSibling.childNodes[0]))
+					{
+						t.innerHTML = v ? spoiler_show : spoiler_hide;
+					}
+					if (v && (c = c.childNodes))
+					{
+						for (i = 0; i < c.length; i++)
+						{
+							if (c[i].className && c[i].className.indexOf('spoiler') >= 0)
+							{
+								for(j = 0, t = c[i].childNodes; j < t.length; j++)
+								{
+									spoilerToggle(t[j], true);
+								}
+							}
+						}
+					}
+				}
+				return(false);
+			}
+//--></script>
+
+		<style>
+			<!--
+
+				/* Hidden: make text and background the same color, for when JavaScript is unavailable. */
+				.spoiler-box, .spoiler-hidden {
+					color:LightSlateGray;
+					background-color:LightSlateGray;
+					display:inline-block;
+
+				}
+
+				/* Visible */
+				.spoiler-visible {
+					color:#990000;
+					font-weight:bold;
+					font-family:'Lato', sans-serif;
+					background-color:#EFEFEF;
+					visibility:visible;
+					display:inline-block;
+
+				}
+
+				div.spoiler-visible {
+					display:block;
+				}
+
+				/* Common */
+				div.spoiler {
+					margin: 0.5em 1px 0 25px;
+					padding:0;
+					border: 0px solid #A9B8C2;
+					display: inline-block;
+				}
+
+				div.spoiler-top {
+					font-style: normal;
+					font-weight: bold;
+					font-size: 0.9em;
+					padding: 0 4px;
+					background-color: #A9B8C2;
+				}
+
+				div.spoiler-box {
+					font-size: 0.95em;
+				}
+
+				span.spoiler-hidden, span.spoiler-visible {
+					padding:0.2em 0.9em;
+				}
+
+				div.spoiler-hidden, div.spoiler-visible {
+					padding: 5px;
+				}
+
+				/* Nested spoilers */
+				div.spoiler div.spoiler {
+					margin-left:15px;
+				}
+
+			-->
+		</style>
+
+<!-- <link href="./styles/subsilver2/theme/prime_bbcode_spoiler.css" rel="stylesheet" type="text/css" /> NOW ABOVE -->
+
+
+<style>
+<!--
+_body {font-size:90%;}
+
+img.logohead {border:0px;margin:0;width: 50vw;max-width:420px;margin-bottom:0.3em;margin-top:0.3em;}
+span.welcome {font-size:1.05em;font-weight:bold;font-family: "Lato", sans-serif;}
+img.fhead {width:3.5em;}
+div.welcdiv {display: flex;align-items: center;}
+
+@media screen and (min-width: 1680px) {
+img.logohead_ggg {margin-left:2em;}
+}
+
+@media screen and (max-width: 950px) {
+img.logofhead {max-width:300px;}
+span.welcome {display:none;}
+img.fhead {width:2.5em;}
+div.welcdiv {align-items: flex-start;margin-top:0.9em;}
+}
+
+@media screen and (max-width: 500px) {
+img.logohead {margin-top:0.4em;}
+}
+
+@media screen and (max-width: 420px) {
+img.logohead {margin-left:0.8em;}
+}
+
+-->
+</style>
+</head>
+<body class="is-preload">
+<script type="text/javascript" src="/scripts/wz_tooltip.js"></script>
+
+
+	<!-- Wrapper -->
+		<div id="wrapper">
+
+			
+
+			<!-- Main -->
+				<div id="main">
+					
+					<div class="inner" >
+
+						<!-- Header -->
+							<header id="header" style='vertical-align:bottom;text-align:left;background-color:white;booorder:0px solid #990000;margin-top:0;'>
+								
+								<a href="/" style='border:0px;flex-grow:0;'>
+								<!--<img src="/images/logos/LL_logo_ballandtext.png" alt="LearnedLeague" class='logohead' style='' />-->
+								
+									<img src="/images/logos/LLTEXT_Ukrball.png" alt="LearnedLeague" class='logohead' style='' /> 
+									<!-- <img src="/images/logos/LLTEXT4.png" alt="LearnedLeague" class='logohead' style='' /> -->
+									
+								
+								</a>						
+								
+								
+							</header>
+
+						<!-- Banner -->
+							<!--
+							<section id="banner">
+								<div class="content">
+									<header>
+									</header>
+									<p></p>
+									<ul class="actions">
+										<li><a href="#" class="button big"></a></li>
+									</ul>
+								</div>
+							</section>
+							-->
+<!-- ***************** HEADER END ***************** -->
+
+			<style>
+			<!--
+			div.log {margin:1.5em 0.5em 1.0em 0.5em;}
+			div.inplbl {width:120px;margin-right:0.3em;}
+			div.inp {max-width:400px;width:100%;}
+
+			-->
+			</style>
+
+
+			<form action="./ucp.php?mode=login&amp;sid=387f6349955bb14ed48e31e6cd3b3c14" method="post">	
+				
+					<div class='log'>
+						<h2>Sign in</h2>
+					</div>
+				
+				<div id="" class="log">
+					In order to view this page, you must be logged in to the LearnedLeague website.
+				</div>
+			
+
+
+				<div id="" class="log">
+					<div style='display: flex;align-items: center;'>
+						<div class='inplbl'>PlayerName:</div><div class='inp'><input class="post" type="text" name="username" size="25" value="" tabindex="1" placeholder='Enter Player Name' /></div>
+					</div>
+				</div>
+							
+							<div id="" class="log">
+								<div style='display: flex;align-items: center;'>
+									<div class='inplbl'>Password:</div><div class='inp'><input class="post" type="password" name="password" size="25" tabindex="2" placeholder='Password' /></div>
+								</div>
+							<br /><a class=""  style='' href="./ucp.php?mode=sendpassword&amp;sid=387f6349955bb14ed48e31e6cd3b3c14">I forgot my password</a>
+							</div>
+							
+						<!--<input type="checkbox" class="radio" name="autologin" tabindex="3" /> <span class="gensmall">Log me on automatically each visit</span>-->
+						<div id="" class="log">
+							<input type='checkbox' id='LOGMEINAUTO' name='autologin' tabindex="3"><label for='LOGMEINAUTO'>Log me on automatically each visit</label>
+						</div>
+						
+						<!--<tr>
+							<td>&nbsp;</td>
+							<td><input type="checkbox" class="radio" name="viewonline" tabindex="4" /> <span class="gensmall">Hide my online status this session</span></td>
+						</tr>-->
+					
+
+			<input type="hidden" name="redirect" value="./match.php?92&amp;1&amp;D_Citadel_Div_1&amp;sid=387f6349955bb14ed48e31e6cd3b3c14" />
+
+			<input type="hidden" name="sid" value="387f6349955bb14ed48e31e6cd3b3c14" />
+
+			<div id="" class="log">
+				<input type="submit" name="login" class="button primary large" value="Login" tabindex="5" />
+			</div>
+			
+			</form>
+
+			<br clear="all" />
+
+
+			<br clear="all" />
+
+			<div align="right"></div>
+
+			<script type="text/javascript">
+			// <![CDATA[
+				(function()
+				{
+					var elements = document.getElementsByName("username");
+					for (var i = 0; i < elements.length; ++i)
+					{
+						if (elements[i].tagName.toLowerCase() == 'input')
+						{
+							elements[i].focus();
+							break;
+						}
+					}
+				})();
+			// ]]>
+			</script>
+
+	<!-- ***************** FOOTER BEGIN ***************** -->
+						<div style='height:3.5em;'></div>
+						</div><!-- main inner -->
+					</div><!-- main -->
+
+
+				<style type="text/css">
+					/* Formatting search box */
+					.search-box{
+						
+						position: relative;
+						display: inline-block;
+						
+					}
+					.search-box input[type="text"]{
+						
+						
+					}
+					.result{
+						position: absolute;        
+						z-index: 999;
+						top: 100%;
+						left: 0;
+					}
+					.search-box input[type="text"], .result{
+						width: 100%;
+						box-sizing: border-box;
+					}
+					/* Formatting result items */
+					.result p{
+						margin: 0;
+						padding: 0.2em 0.4em;
+						border: 1px solid #999999;
+						border-top: none;
+						cursor: pointer;
+						background: White;
+						font-size:0.9em;
+					}
+					.result p:hover{
+						background: #336666;
+						color:white;
+					}
+
+				#menu > ul
+					{
+						text-transform:none;
+						letter-spacing: 0.1em;
+						font-weight:300;
+						
+
+					}
+
+				#menu > ul > li
+					{
+						padding-left:0.2em;
+						text-transform:none;
+						letter-spacing: 0.1em;
+						font-weight:300;
+
+					}
+
+				#menu > ul > li a:hover
+					{
+						background-color:white;
+					}
+
+				#menu > ul > li > ul
+					{
+						text-transform:none;
+
+					}
+
+				#search form::before {
+						transform: scaleX(-1);
+						color: #7f888f;
+						content: '\f002';
+						cursor: default;
+						display: block;
+						font-size: 1.3em;
+						height: 1.8em;
+						line-height: 1.8em;
+						opacity: 0.325;
+						position: absolute;
+						right: 0;
+						text-align: center;
+						top: 0;
+						width: 1.8em;
+				}
+
+			#sidebar > .inner > .alt {
+				background-color:#336666;
+			}
+
+				</style>
+				<!-- Sidebar -->
+					<div id="sidebar">
+					
+						<div class="inner">
+						
+
+							<!-- Search -->
+								<section id="search" class="alt search-box" style='margin-bottom:1em;padding:0.5em;'>
+									
+									
+								</section>
+
+
+							<!-- INCL /ll/content_index_membership.html --><!-- Menu -->
+								<nav id="menu" style='margin-bottom:0;padding-bottom:0;border-bottom:0;'>
+									<!--<header class="major">
+										<h2 style='font-family: "Lato", sans-serif;margin-bottom:1em;'>Menu</h2>
+									</header>-->
+									<ul>
+										<li><a href="/">LL Home</a></li>
+										<li><a href="/standings.php?92">LL92 Standings</a></li>
+
+										<li>
+											<span class="opener">Thorsten's Desk</span>
+											<ul>
+												<li><a href="/thorsten/">Thorsten's Desk Home</a></li>
+												<li><a href="/thorsten/therules.php">Complete Rules</a></li>
+												<li><a href="/thorsten/freq.php">FAQ</a></li>
+												
+												<li><a href="/thorsten/privacy.php">Privacy Policy</a></li>
+												
+												<li><a href="/thorsten/inmemoriam.php">In Memoriam</a></li>
+												<li><a href="/thorsten/">More...</a></li>
+											</ul>
+										</li>
+										
+										
+
+										<li><a href="/membercenter.php">Member Center</a></li>
+										<li><a href="/waitlist.php">Membership Wait List</a></li>
+	
+										<li><a href="/hist/">History</a></li>
+										<li><a href="/mini/">MiniLeagues</a></li>
+										<li><a href="/oneday/">One-Days</a></li>
+
+												
+
+										<li><a href="/memberhosted.php">Member-Hosted Events & Podcasts</a></li>
+
+										<li><a href="/thorsten/contact.php">Contact the League</a></li>
+										<li></li>
+									</ul>
+								</nav>
+							
+							
+								<section style='padding-top:1.3em;'>
+									<style>
+									div.sn_log_front {margin:0.25em;font-size:1.05em;}
+									form.log_in_front {margin:0;}
+									</style>
+									
+									<form method="post" action="./ucp.php?mode=login&amp;sid=387f6349955bb14ed48e31e6cd3b3c14" class='log_in_ftont'>
+									
+									<div style='text-align:center;'>	
+										<div  style='
+												text-align: center;
+												display: inline-block;
+												border:1px solid #cccccc;
+												_background-color: #FFECA3;
+												width:100%;
+												max-width:400px;
+												_border: 2px solid DarkBlue;
+												_border-radius: 25px;
+												padding:0.8em;'>
+											<div id="" class="sn_log_front">
+												<input type="text" style="width:100%;display: inline-block;" name="username" value="" placeholder="Enter player name">
+											</div>
+											<div id="" class="sn_log_front">
+												<input value="" style="width:100%;display: inline-block;" type="password" name="password" placeholder="&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;">
+											</div>
+											<div id="" class="sn_log_front">
+												<input type="submit" class='button primary' style='display: inline-block;margin-top:0.75em;width:100%;' name="login" value="Sign In" />
+											</div>
+					
+											
+												<div style='font-size:0.80em;font-weight:normal;margin-top:1em;text-align:left;' class='sn_log_front'>
+													<input type='checkbox' id='autologin_side' name="autologin"><label for='autologin_side'>Log on automatically each visit</label>
+												</div>
+											
+												<div style='font-size:0.85em;font-weight:normal;' class='sn_log_front'>
+													<a href="./ucp.php?mode=sendpassword&amp;sid=387f6349955bb14ed48e31e6cd3b3c14">Forgot Password?</a>
+												</div>
+											
+										</div>
+									</div>
+
+										<!-- THIS CODE ALLOWS LOGIN TO STAY ON PAGE -->
+											<input type="hidden" name="redirect" value="./match.php?92&amp;1&amp;D_Citadel_Div_1&amp;sid=387f6349955bb14ed48e31e6cd3b3c14" />
+
+											<input type="hidden" id="txtUrl" name="redirect" value="">
+											<script>document.getElementById('txtUrl').value = window.location.href;</script>
+										<!-- end THIS CODE ALLOWS LOGIN TO STAY ON PAGE -->
+										
+
+									</form>
+								</section>
+							
+
+
+					<!-- sitechooser note 
+						<div style='border:4px solid #F9EAED;padding:0.6em;font-size:0.8em;color:#666666;margin-top:1.5em;margin-bottom:0.4em;border-radius:5px;'>
+							You are using the beta version of the new LL website. <a href='/thorsten/sitechooser.php'>Click here</a> to switch back to the classic site.
+						</div>
+					 end sitechooser note -->
+
+
+							<!-- Footer -->
+								<footer id="footer" style='border-top:1px solid #666666;padding-top:0.75em;margin-top:2em;'>
+									<p class="copyright" style='font-size:0.85em;'>Copyright &copy; 1998-2022 LearnedLeague LLC | <a href="/thorsten/statement.php">Terms of Service</a> | All Rights Reserved | <a href="/thorsten/privacy.php">Privacy Policy</a> | <a href="/thorsten/cookies.php">Cookie Policy</a></p>
+								</footer>
+
+						</div><!-- sidebar inner. -->
+					</div><!-- sidebar -->
+
+
+
+
+			</div><!-- wrapper --><!-- Scripts -->
+			<script src="/assets/js/jquery.min.js"></script>
+			<script src="/assets/js/browser.min.js"></script>
+			<script src="/assets/js/breakpoints.min.js"></script>
+			<script src="/assets/js/util.js"></script>
+			<script src="/assets/js/main4.js"></script>
+
+			<!--<script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>-->
+			<script type="text/javascript">
+			$(document).ready(function(){
+				$('.search-box input[type="text"]').on("keyup input", function(){
+					/* Get input value on change */
+					var inputVal = $(this).val();
+					var resultDropdown = $(this).siblings(".result");
+					if(inputVal.length){
+						$.get("/backend-search.php", {term: inputVal}).done(function(data){
+							// Display the returned data in browser
+							resultDropdown.html(data);
+						});
+					} else{
+						resultDropdown.empty();
+					}
+				});
+				
+				// Set search input value on click of result item
+				$(document).on("click", ".result p", function(){
+					$(this).parents(".search-box").find('input[type="text"]').val($(this).text());
+					$(this).parent(".result").empty();
+				});
+			});
+			</script>
+
+
+
+		<!--
+		<div style="display: none">  
+			IF not S_IS_BOT 
+					<img src="./cron.php?cron_type=queue&amp;sid=387f6349955bb14ed48e31e6cd3b3c14" width="1" height="1" />
+			ENDIF 
+		</div> 
+		-->
+
+
+
+
+
+
+	</body>
+</html>
